@@ -9,10 +9,10 @@
   }
 
   .details {
-    width: 300px;
+    width: 310px;
     position: absolute;
     margin-top: -55px;
-    margin-left: 24px;
+    margin-left: 25px;
     padding: 20px 15px 25px 25px;
     display: flex;
     background-color: #ffffff;
@@ -29,6 +29,7 @@
 
     .comments {
       text-align: right;
+      padding-right: 9px;
     }
   }
 
