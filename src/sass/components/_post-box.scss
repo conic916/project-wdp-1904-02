@@ -1,37 +1,34 @@
 .post-box {
   margin-bottom: 2rem;
 
-  .cover {
-    padding: 70% 25px 0 25px;
-    background: {
-      color: #f4f5f7;
-      size: cover;
-      position: center;
+  img {
+    width: 360px;
+    height: 290px;
+    z-index: 1;
+    position: relative;
+  }
+
+  .details {
+    width: 300px;
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 24px;
+    padding: 20px 15px 25px 25px;
+    display: flex;
+    background-color: #ffffff;
+    font-size: 14px;
+    z-index: 10;
+
+    & > * {
+      flex: 1 1 auto;
     }
 
-    img {
-      width: 100%;
-      height: 100%;
-      margin-top: -11vw;
+    .date {
+      text-align: left;
     }
 
-    .details {
-      padding: 15px 20px;
-      display: flex;
-      background-color: #ffffff;
-      font-size: 14px;
-
-      & > * {
-        flex: 1 1 auto;
-      }
-
-      .date {
-        text-align: left;
-      }
-
-      .comments {
-        text-align: right;
-      }
+    .comments {
+      text-align: right;
     }
   }
 
